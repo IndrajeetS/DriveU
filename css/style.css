@@ -1,0 +1,388 @@
+
+/* My css */
+
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/main_bg.jpg);
+    background-size: contain;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia;
+}
+
+.navbar {
+    background-image: url(../images/header_bg01.png);
+    background-size: 100%;
+    min-width: 100%;
+    z-index: 10;
+}
+
+.navbar-toggler {
+    background-color: lightgrey !important;
+}
+
+.navbar-toggler-icon {
+    background-color: grey !important;
+}
+
+
+.nav li a {
+    text-transform: uppercase;
+    color: #696969;
+}
+
+.nav li:hover a {
+    color: darkred;
+    background-color: transparent !important;
+    transition: all 0.5s ease-in;
+}
+
+.nav li {
+    margin-left: 25px;
+}
+
+/* style for carousel */
+
+.myCarousel {
+    min-width: 100%;
+    min-height: auto;
+    clear: both;
+    top: -12px;
+}
+
+.slide-content {
+    left: 69%;
+    right: 0;
+    top: 25%; 
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    color: green;
+    margin-bottom: 12%;
+    font-size: 2vw;
+}
+
+.carousel-caption p {
+    color: #696969;
+    line-height: 1px;
+    font-size: 1vw;
+}
+
+.btn-cr {
+    position: absolute;
+    top: 75%;
+}
+
+.carousel-indicators {
+    bottom: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    right: auto;
+    left: 94%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+
+/* style for lifestyle main-content */
+
+.main-content {
+    background-image: url(../images/lifestyle_box_bg.jpg);
+    background-size: contain;
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    padding: 25px;
+}
+
+.main-heading {
+    color: green;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.left-side{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.hr-style {
+    border: 1px solid green; 
+    margin-top: 0; 
+}
+
+.btn {
+    color: green !important;
+    background-color: #fff !important;
+    border-radius: 0 !important;
+text-transform: uppercase !important;
+}
+
+.btn-ls {
+    margin-top: 120px !important;
+}
+
+
+/* style for cards content */
+
+.card-deck {
+    margin-top: 0px !important;
+}
+
+.card-two {
+    margin-top: 26px;
+}
+
+.card {
+    margin-right: 30 !important;
+    border: none;
+    background-color: transparent;
+    float: left;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.card-title {
+    text-transform: uppercase;
+    color: green;
+    font-size: 15px;
+}
+
+.card p {
+    font-size: 12px;
+    color: #696969;
+}
+
+.h6 {
+    /* text-transform: uppercase;  */
+    text-align: left;
+    font-size: 15px;
+    color: #696969;
+}
+
+.vl-two {
+    border-left: 1px solid silver;
+    margin-top: 35px;
+}
+
+.vl {
+    border-left: 0.6px solid silver;
+}
+
+/* style for customer and news content */
+
+.details {
+    margin-top: 30px;
+}
+
+.customer p {
+    font-size: 12px;
+    color: #696969;
+    text-align: justify;
+}
+
+.news p {
+    font-size: 13px;
+    color: #696969;
+    text-align: justify;
+}
+
+.details-heading {
+    color: green;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.cust-row {
+    margin-top: 15px;
+}
+
+a {
+    color: green;
+}
+
+.detail-heading {
+    color: green;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.date-heading {
+    color: #696969;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* style for media content */
+
+.medias {
+    background-image: url(../images/lifestyle_box_bg.jpg);
+    background-size: contain;
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid lightgrey;
+}
+
+.media-heading {
+    color: green;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.below-para p {
+    font-size: 12px;
+    color: #696969;   
+}
+
+/* style for footer */
+
+footer {
+    background-image: url(../images/footer_bg.jpg);
+    margin-top: 30px;
+    height: 90px;
+}
+
+.footer {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.footer-ul {
+    padding-top: 15px;
+}
+
+.footer-li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 13px;
+    color: lightgray; 
+}
+
+.footer-li a {
+    color: lightgray; 
+}
+
+.copyright{
+    float: right;
+    font-size: 12px;
+    color: lightgray;
+    margin-right: 0px;
+}
+
+
+
+/* starting of media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-deck {
+        margin-top: 30px !important;
+        text-align: left;
+    }
+    .news {
+        margin-top: 20px;
+    }
+    .vl, .vl-two, .h6 {
+        display: none;
+    }
+    .copyright {
+        float: none;
+    }
+    .card-two{
+        margin-top: 0px;
+    }  
+    
+    .carousel-indicators {
+        left: 88%;
+        margin-bottom: 8px;
+    }
+    .btn-ls {
+        margin-top: 30px;
+    }  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card-deck {
+        margin-top: 20px !important;
+    }
+    .card {
+        max-width: 50%;
+    }
+    .vl, .vl-two, .h6 {
+        display: none;
+    }
+    .card-two{
+        margin-top: 0px;
+    }  
+
+    .carousel-indicators {
+        left: 88%;
+        margin-bottom: 5px;
+    }
+    .btn-ls {
+        margin-top: 30px;
+    }  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .vl, .vl-two, .h6 {
+        display: none;
+    }
+    .card-two{
+        margin-top: 0px;
+    }
+    .btn-ls {
+        margin-top: 30px;
+    }    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .vl, .vl-two {
+        display: none !important;
+    }
+    .card-two{
+        margin-top: 0px;
+    }  
+    .btn-ls {
+        margin-top: 30px;
+    }  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .h6 {
+        display: block;
+    }
+    .vl, .vl-two {
+        display: block !important;
+    }
+    .card-two{
+        margin-top: 26px;
+    }   
+}
